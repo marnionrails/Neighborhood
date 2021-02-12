@@ -1,19 +1,31 @@
-# _{Application Name}_
+# Mr. Roboger's Neighborhood
 
-#### _{Brief description of application}_
+#### Independent Project for Epicodus
 
-#### By _**{List of contributors}**_
+#### By **Marni Sucher**
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML/CSS
+* Bootstrap
+* JavaScript
+* jQuery
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This web application takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
+
+* Numbers that contain a 1: all digits are replaced with "Beep!"
+* Numbers that contain a 2: all digits are replaced with "Boop!"
+* Numbers that contain a 3: all digits are replaced with "Won't you be my neighbor?"
+
+These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third. So, for example, in your finished program,
+
+* The number 13 should be replaced with "Won't you be my neighbor?"
+* The number 21 should be replaced with "Boop".
+* The number 32 should be replaced with "Won't you be my neighbor?"
+* A user should be able to enter a new number and see new results over and over again.
+
 
 ## Setup/Installation Requirements
 
@@ -32,8 +44,8 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+This software is licensed under the GPL license. Copyright (c) 2021 Marni Sucher
 
 ## Contact Information
 
-_{Add your contact information here.}_
+Marni Sucher <suchermarni@gmail.com>
