@@ -24,6 +24,6 @@ $(document).ready(function() {
   $("#form-group").submit(function(event) {
     event.preventDefault();
     let userInput = $("#number").val();
-    console.log(userInput);
+    console.log(neighbor(userInput));
   });
 });
