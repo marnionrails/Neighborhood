@@ -45,9 +45,9 @@ Test 4: Test: "It will take 3 from the user and return "0 Beep! Boop! Won't you 
 
         Expect(3).toEqual("0 Beep! Boop! Won't you be my neighbor?");
 
-Test 5: Test: "It will take number 13 and return "Won't you be my neighbor"
+Test 5: Test: "It will take number 10 and return "Won't you be my neighbor"
         
-        Expect(13).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Beep Beep Boop Won't you be my neighbor?);
+        Expect(10).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Beep);
         
 ## Setup/Installation Requirements
 
