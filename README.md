@@ -73,8 +73,7 @@ Test 9: Test: "It will take number 32 and return "0 Beep! Boop! Won't you be my 
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* None at this time
 
 ## License
 
