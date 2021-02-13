@@ -30,25 +30,27 @@ These exceptions are written from least to most important. The first exception s
 
 Test 1: Describe: neighbor();
         Test: "It will take 1 from the user and return "Beep!"
+        
         Expect(1).toEqual("Beep!);
 
 Test 2: Test: "It will take 1 from the user and return "0 Beep!"
+        
         Expect(1).toEqual("0 Beep!");
 
 Test 3: Test: "It will take 2 from the user and return "0 Beep! Boop!"
+
         Expect(2).toEqual("0 Beep! Boop!");
 
 Test 4: Test: "It will take 3 from the user and return "0 Beep! Boop! Won't you be my neighbor?"
+
         Expect(3).toEqual("0 Beep! Boop! Won't you be my neighbor?");
+
 
 ## Setup/Installation Requirements
 
 * Clone repository: https://github.com/marnionrails/Neighborhood
 * Open Neighborhood repository
 * Open index.html in your favorite browser
-
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
