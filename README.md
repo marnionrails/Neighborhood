@@ -36,7 +36,10 @@ Test 2: Test: "It will take 1 from the user and return "0 Beep!"
         Expect(1).toEqual("0 Beep!");
 
 Test 3: Test: "It will take 2 from the user and return "0 Beep! Boop!"
-        Expect(2).toEuqal("0 Beep! Boop!");
+        Expect(2).toEqual("0 Beep! Boop!");
+
+Test 4: Test: "It will take 3 from the user and return "0 Beep! Boop! Won't you be my neighbor?"
+        Expect(3).toEqual("0 Beep! Boop! Won't you be my neighbor?");
 
 ## Setup/Installation Requirements
 
