@@ -1,10 +1,13 @@
 const array = [];
 function neighbor(input) {
   for(let number = 0; number <= input; number++) { 
-    array.push(number);
-    console.log(number);
+    if(number === 1)
+      array.push("Beep!");
+    else {
+      array.push(number);
+    }
   }
   return array;
 }
 
-console.log(neighbor(3));
+console.log(neighbor(1));

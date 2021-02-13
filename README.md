@@ -33,7 +33,7 @@ Test 1: Describe: neighbor();
         Expect(1).toEqual("Beep!);
 
 Test 2: Test: "It will take 1 from the user and return "0 Beep!"
-        Expect(2).Equal("0 Beep!");
+        Expect(1).Equal("0 Beep!");
 
 ## Setup/Installation Requirements
 
