@@ -26,10 +26,15 @@ These exceptions are written from least to most important. The first exception s
 * The number 32 should be replaced with "Won't you be my neighbor?"
 * A user should be able to enter a new number and see new results over and over again.
 
+## Tests
+
+Test 1: Describe: neighbor();
+        Test: "It takes 1 from the user and returns "Beep!"
+        Expect(1).toEqual("Beep!);
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
+* 
 * _to list setup instructions_
 * _in a simple_
 * _easy-to-understand_
