@@ -52,6 +52,10 @@ Test 5: Test: "It will take number 10 and return "0 Beep! Boop! 4 5 6 7 8 9 Beep
 Test 6: Test "It will take number 12 and return "0 Beep! Boop! 4 5 6 7 8 9 Beep! Beep! Boop!"
 
         Expect(12).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Beep! Beep! Boop!");
+
+Test 7: Test "It will take number 12 and return "0 Beep! Boop! 4 5 6 7 8 9 Beep! Beep! Boop! Won't you be my neighbor?"
+
+        Expect(13).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Beep! Beep! Boop! Won't you be my neighbor?");
         
 ## Setup/Installation Requirements
 

@@ -16,4 +16,4 @@ function neighbor(input) {
   return array;
 }
 
-console.log(neighbor(12));
+console.log(neighbor(13));
