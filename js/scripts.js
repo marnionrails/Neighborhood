@@ -1,3 +1,5 @@
+//Business Logic
+
 const array = [];
 function neighbor(input) {
   for(let number = 0; number <= input; number++) { 
@@ -12,8 +14,16 @@ function neighbor(input) {
         array.push(number);
     }
       number = parseInt(number);
-    }
+  } 
   return array;
 }
 
-console.log(neighbor(32));
+//User interface logic
+
+$(document).ready(function() {
+  $("#form-group").submit(function(event) {
+    event.preventDefault();
+    let userInput = $("#number").val();
+    console.log(userInput);
+  });
+});
