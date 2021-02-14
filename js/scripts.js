@@ -1,7 +1,7 @@
 //Business Logic
 
-const array = [];
 function neighbor(input) {
+  let array = []
   for(let number = 0; number <= input; number++) { 
       number = number.toString();
       if(number.includes("3")) {
