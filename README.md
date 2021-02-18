@@ -28,41 +28,25 @@ These exceptions are written from least to most important. The first exception s
 
 ## Tests
 
-Test 1: Describe: neighbor();
-        Test: "It will take 1 from the user and return "Beep!"
-        
-        Expect(1).toEqual("Beep!);
-
-Test 2: Test: "It will take 1 from the user and return "0 Beep!"
-        
+Test 1: Test: "It will replace numbers that contain 1 with "Beep!" <br>
         Expect(1).toEqual("0 Beep!");
 
-Test 3: Test: "It will take 2 from the user and return "0 Beep! Boop!"
-
+Test 2: Test: "It will replace numbers that contain 2 with "Boop!" <br>
         Expect(2).toEqual("0 Beep! Boop!");
 
-Test 4: Test: "It will take 3 from the user and return "0 Beep! Boop! Won't you be my neighbor?"
-
+Test 3: Test: "It will replace numbers that contain 3 with "won't you be my neighbor?" <br>
         Expect(3).toEqual("0 Beep! Boop! Won't you be my neighbor?");
 
-Test 5: Test: "It will take number 10 and return "0 Beep! Boop! 4 5 6 7 8 9 Beep!"
-        
+Test 4: Test: "It will replace multi-digit numbers that contain 1 with "Beep!" <br>
         Expect(10).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Beep');
 
-Test 6: Test "It will take number 12 and return "0 Beep! Boop! 4 5 6 7 8 9 Beep! Beep! Boop!"
-
-        Expect(12).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Beep! Beep! Boop!");
-
-Test 7: Test "It will take number 13 and return "0 Beep! Boop! 4 5 6 ...Won't you be my neighbor?"
-
+Test 5: Test "It will replace multi-digit numbers that contain 3 with "Won't you be my neighbor?" 3 takes priority over 1. <br>
         Expect(13).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 ...Won't you be my neighbor?");
 
-Test 8: Test: "It will take number 21 and return "0 Beep! Boop! Won't you be my neighbor? 4 5 6...Boop!"
-
+Test 6: Test: "It will replace multi-digit numbers that contain 2 with "Boop!" 2 takes priority over 1. <br>
         Expect(21).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 ...Boop!);
 
-Test 9: Test: "It will take number 32 and return "0 Beep! Boop! Won't you be my neighbor? 4 5 6...Boop! Won't you be my neighbor?"
-
+Test 7: Test: "It will replace multi-digit numbers that contain 3 with "Won't you be my neighbor?" 3 takes priority over 2.<br>
         Expect(32).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 ...Boop! Won't you be my neighbor?);
         
 ## Setup/Installation Requirements
